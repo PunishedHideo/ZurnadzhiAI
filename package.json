@@ -1,0 +1,13 @@
+{
+  "name": "zurnadzhiai",
+  "version": "1.0.0",
+  "description": "The future of roleplay is here. Join the hive.",
+  "main": "ZurnadzhiAI.js",
+  "author": "PunishedHideo",
+  "license": "MIT",
+  "dependencies": {
+    "copy-paste": "^1.5.3",
+    "cross-fetch": "^4.0.0",
+    "robotjs": "^0.6.0"
+  }
+}
