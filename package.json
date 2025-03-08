@@ -2,12 +2,26 @@
   "name": "zurnadzhiai",
   "version": "1.0.0",
   "description": "The future of roleplay is here. Join the hive.",
-  "main": "ZurnadzhiAI.js",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build:dist": "tsc",
+    "build:bin": "",
+    "start": "ts-node src/index.ts",
+    "watch": "tsc --watch",
+    "lint": "eslint",
+    "format": "prettier --write 'src/**/*.{js,ts}'"
+  },
   "author": "PunishedHideo",
   "license": "MIT",
-  "dependencies": {
-    "copy-paste": "^1.5.3",
-    "cross-fetch": "^4.0.0",
-    "robotjs": "^0.6.0"
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
   }
 }
